@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CompFix — Комп'ютерний сервіс</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f4f6f8; color:#222; }
+
+    header {
+      background:#111;
+      color:#fff;
+      padding:15px 30px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    /* ЛОГОТИП */
+    .logo {
+      font-size:28px;
+      font-weight:900;
+      letter-spacing:1px;
+    }
+    .logo span {
+      color:#0d6efd;
+    }
+
+    nav a {
+      color:#fff;
+      margin-left:20px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    nav a:hover { color:#0d6efd; }
+
+    .hero {
+      background:#ffffff;
+      padding:60px 20px;
+      text-align:center;
+    }
+    .hero h2 { font-size:36px; margin-bottom:10px; }
+    .hero p { font-size:18px; color:#555; }
+
+    .btn {
+      display:inline-block;
+      margin-top:20px;
+      padding:14px 32px;
+      background:#0d6efd;
+      color:#fff;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    .btn:hover { background:#0b5ed7; }
+
+    section { max-width:1000px; margin:auto; padding:40px 20px; }
+
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .card {
+      background:#fff;
+      border-radius:12px;
+      padding:25px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    }
+    .card h3 { margin-top:0; color:#0d6efd; }
+
+    footer {
+      background:#111;
+      color:#aaa;
+      text-align:center;
+      padding:25px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Comp<span>Fix</span></div>
+  <nav>
+    <a href="#services">Послуги</a>
+    <a href="#about">Про нас</a>
+    <a href="#contacts">Контакти</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Ремонт комп'ютерів та ноутбуків</h2>
+  <p>Швидко • Якісно • З гарантією</p>
+  <a class="btn" href="#contacts">Залишити заявку</a>
+</div>
+
+<section id="services">
+  <h2>Наші послуги</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Діагностика</h3>
+      <p>Виявлення проблем з ПК або ноутбуком</p>
+    </div>
+    <div class="card">
+      <h3>Ремонт ПК</h3>
+      <p>Материнські плати, живлення, перегрів</p>
+    </div>
+    <div class="card">
+      <h3>Ремонт ноутбуків</h3>
+      <p>Чистка, термопаста, заміна клавіатур</p>
+    </div>
+    <div class="card">
+      <h3>Встановлення Windows</h3>
+      <p>Windows, драйвери, базові програми</p>
+    </div>
+    <div class="card">
+      <h3>Видалення вірусів</h3>
+      <p>Очищення та оптимізація системи</p>
+    </div>
+    <div class="card">
+      <h3>Апгрейд під клієнта</h3>
+      <p>Консультація та встановлення деталей клієнта</p>
+    </div>
+    <div class="card">
+      <h3>Збірка ПК з ваших деталей</h3>
+      <p>Збірка та тестування комп’ютера під ваші задачі</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>Про CompFix</h2>
+  <div class="card">
+    <p>CompFix — це сервісний центр з ремонту комп'ютерної техніки. Ми працюємо як з технікою клієнта, так і пропонуємо збірку ПК з власних деталей, гарантуючи чесний сервіс, прозорі ціни та якісний результат.</p>
+  </div>
+</section>
+
+<section id="contacts">
+  <h2>Контакти</h2>
+  <div class="card">
+    <p><strong>Телефон:</strong> +380 969 734 948 (тільки для ідентифікації)</p>
+    <p><strong>Telegram:</strong> @Sombody_em (дзвонити та писати)</p>
+    <p><strong>Місто:</strong> Україна</p>
+  </div>
+</section>
+
+<footer>
+  © 2025 CompFix — Ремонт комп'ютерів
+</footer>
+
+</body>
+</html>
